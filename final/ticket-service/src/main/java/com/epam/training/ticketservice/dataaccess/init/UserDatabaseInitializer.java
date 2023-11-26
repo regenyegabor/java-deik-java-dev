@@ -2,6 +2,8 @@ package com.epam.training.ticketservice.dataaccess.init;
 
 import com.epam.training.ticketservice.dataaccess.dao.UserDao;
 import com.epam.training.ticketservice.dataaccess.projection.UserProjection;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
